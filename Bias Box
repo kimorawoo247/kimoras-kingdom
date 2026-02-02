@@ -1,0 +1,20 @@
+export default function BiasBoxPage() {
+  return (
+    <div className="p-12 text-center">
+      <h1 className="text-5xl font-bold text-pink-700 mb-4">💖 The Bias Box</h1>
+      <p className="text-lg text-pink-600 italic mb-6">Monthly chaos curated by your Queen.</p>
+      <div className="inline-block bg-white p-6 rounded-xl border border-pink-300">
+        <h2 className="text-3xl font-semibold text-pink-700 mb-2">$29/month</h2>
+        <ul className="list-disc list-inside text-left text-sm text-gray-700 mb-4">
+          <li>3+ full-size K-beauty & idol-core products</li>
+          <li>Exclusive merch only in the box</li>
+          <li>Digital rituals & stan playlists</li>
+          <li>Early Pretty Savage access</li>
+        </ul>
+        <button className="bg-pink-500 hover:bg-pink-600 text-white text-lg px-6 py-3 rounded-full">
+          Subscribe Now
+        </button>
+      </div>
+    </div>
+  );
+}
